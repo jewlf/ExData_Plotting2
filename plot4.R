@@ -1,5 +1,5 @@
 ## Project 2. plot 4 - Emissions from US coal combustion-related sources for 1999-2008
-# Read data file (only this one needed for this plot)
+# Read data file
 NEI <- readRDS("summarySCC_PM25.rds")
 
 # Read in the source listing

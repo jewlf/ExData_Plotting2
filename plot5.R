@@ -1,5 +1,5 @@
 ## Project 2. plot 5 - Emissions from motor vehicles 1999–2008 in Baltimore City
-# Read data file (only this one needed for this plot)
+# Read data file
 NEI <- readRDS("summarySCC_PM25.rds")
 
 # Read in the source listing

@@ -29,7 +29,7 @@ p <- q + geom_point() +
   labs(y = "Emissions (tons)") +
   scale_x_continuous(breaks = c(1999, 2002, 2005, 2008))
 
-# Increate the spacing between facet panels so that year labels don't overlap
+# Increase the spacing between facet panels so that year labels don't overlap
 library(grid)
 r <- p + theme(panel.margin = unit(1, "lines"))
 
